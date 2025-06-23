@@ -1,0 +1,68 @@
+---
+title: "Introduction to homeR"
+author: "Your Name"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction to homeR}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(homeR)
+```
+
+## Introduction
+
+The `homeR` package provides simple utility functions for common tasks. This vignette will show you how to use the main functions in the package.
+
+## Basic Functions
+
+### Hello Function
+
+The `hello()` function provides a simple greeting:
+
+```{r}
+hello()
+```
+
+You can also provide a custom name:
+
+```{r}
+hello("Alice")
+```
+
+### Add Numbers Function
+
+The `add_numbers()` function adds two numbers together:
+
+```{r}
+add_numbers(2, 3)
+```
+
+It works with negative numbers too:
+
+```{r}
+add_numbers(10, -5)
+```
+
+## Getting Help
+
+To get help on any function, use the `?` operator:
+
+```{r, eval = FALSE}
+?hello
+?add_numbers
+```
+
+## Contributing
+
+This is a template package. Feel free to modify the functions and add new ones according to your needs! 

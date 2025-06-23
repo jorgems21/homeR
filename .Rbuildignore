@@ -1,0 +1,15 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^README\.Rmd$
+^cran-comments\.md$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
+^\.github$
+^\.git$
+^\.gitignore$
+^\.Rhistory$
+^\.RData$
+^\.Ruserdata$
+^\.vscode$
+^\.idea$ 

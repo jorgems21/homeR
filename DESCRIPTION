@@ -1,0 +1,22 @@
+Package: homeR
+Type: Package
+Title: Home R Package
+Version: 0.1.0
+Authors@R: 
+    person("Your", "Name", 
+           email = "your.email@example.com",
+           role = c("aut", "cre"))
+Description: A brief description of what your package does.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
+Depends: 
+    R (>= 3.5.0)
+Imports: 
+    # Add your package dependencies here
+Suggests: 
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr 
